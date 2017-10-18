@@ -1,0 +1,16 @@
+﻿<Window x:Class="naturalscroll.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:naturalscroll"
+        mc:Ignorable="d"
+        Title="Natural Scroll Enabler" Height="216.888" Width="402.593" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ListBox x:Name="deviceList" HorizontalAlignment="Left" Height="161" VerticalAlignment="Top" Width="273" Loaded="deviceList_Loaded" SelectionChanged="deviceList_SelectionChanged"/>
+        <CheckBox x:Name="naturalScrollCheckBox" Content="Natural Scroll" HorizontalAlignment="Left" Margin="289,74,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <Label Content="Selected device:" HorizontalAlignment="Left" Margin="286,14,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="saveButton" Content="Save" HorizontalAlignment="Left" Margin="289,141,0,0" VerticalAlignment="Top" Width="91" Click="saveButton_Click" IsEnabled="False"/>
+
+    </Grid>
+</Window>
