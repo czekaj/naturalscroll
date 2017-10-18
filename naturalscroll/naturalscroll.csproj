@@ -148,5 +148,8 @@
   <ItemGroup>
     <Resource Include="if_Mouse_728969.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshot.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
